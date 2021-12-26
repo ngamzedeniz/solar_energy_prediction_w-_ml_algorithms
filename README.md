@@ -15,12 +15,15 @@ Short and long term solar energy forecasting has an important place in the energ
 Expore & Process DATA
 
 1. Retrieve
+
 The data includes maximum humidity, minimum humidity, relative humidity, wind magnitude, dew point temperature, minimum maximum and actuel temperature, minimum, maximum and actuel sunshine duration and solar radiation of Aksaray province for the years 2017-2019, sunrise time angle.
 
 2. Clean & Explore
+
 Values with zero radiation were deleted so that the model could work with more meaningful data and the data set was normalized. The purpose of normalizing is to make the model work better, and this method have been used in many studies. (Karasu et al, 2017; Alsafadi and Filik, 2020)
 
 3. Prepare / Transform
+
 The hourly data converted into daily data, in order to obtain the total daily radiation.
 Temperature and sun duration converted into average, maksimum and minimum values of days, while other variables converted into daily average. 
  (ws) and zenith angles were calculated and added to the data set. There has been proved that zenitg angle imporved the model performance of predicting solar radiation (Fatemi and Kuh, 2013).
@@ -30,6 +33,7 @@ Temperature and sun duration converted into average, maksimum and minimum values
 Modeling
 
 1. Develop & Train Model
+
 XGBoost, Random Forest and Knn models have used for predict solar radiation.
 
 
