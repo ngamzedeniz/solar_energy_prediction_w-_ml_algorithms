@@ -1,4 +1,4 @@
-# solar_energy_prediction_w-_ml_algorithms
+# Solar_Energy_Prediction_w'_Machine_Learning_Algorithms
 
 Motivation For This Project:
 
