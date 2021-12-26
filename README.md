@@ -1,6 +1,6 @@
 # Solar_Energy_Prediction_w'_Machine_Learning_Algorithms
 
-Motivation For This Project:
+## Motivation For This Project:
 
 
 Turkey is a very valuable country in terms of solar energy potential. So much so that it is the country with the most sunshine duration in Europe annually.
@@ -12,7 +12,7 @@ Forecasting solar energy is an interdisciplinary subject in terms of renewable e
 Short and long term solar energy forecasting has an important place in the energy market. 
 
 
-Expore & Process DATA
+### Expore & Process DATA
 
 1. Retrieve
 
@@ -30,7 +30,7 @@ Temperature and sun duration converted into average, maksimum and minimum values
 
 
 
-Modeling
+### Modeling
 
 1. Develop & Train Model
 
@@ -45,7 +45,7 @@ In this study, the model results evaluated with statistical metrics such as R (P
 Results showed that XGBoost model have better performance predicting solar radiation compared to other models. Is has been also showed that increase of various meteorological variable inputs improve the model results. Results with higher error were observed before the data were normalized. Normalized data was run on all models. For this, the preprocessing function of the sklearn library is used. 
 
 
-Sources:
+### Sources:
 
 Karasu, S., Altan, A., Sarac, Z., & Hacioglu, R. (2017). Prediction of solar radiation based on machine learning methods. The journal of cognitive systems, 2(1), 16-20.
 
