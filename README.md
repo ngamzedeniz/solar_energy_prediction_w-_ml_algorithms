@@ -42,6 +42,11 @@ XGBoost, Random Forest and Knn models have used for predict solar radiation.
 
 In this study, the model results evaluated with statistical metrics such as R (Pearson Corelation Coefficient), RMSE (Root Mean Squared Error), MAE (Mean Absolute Error). With the Random Forest model, the order of importance of the meteorological variables in estimating the solar radiation was determined, data were extracted from the variable with the lowest order of importance to the variable with the highest order, and RMSPE, MAPE and R values in each step were calculated, how the model reacted with various meteorological variables tested.
 
+
+#### variable importance levels
+![image](https://user-images.githubusercontent.com/92583544/147407825-6a4916fa-1ab0-4359-ae56-e0cf33c7d74f.png)
+
+
 Results showed that XGBoost model have better performance predicting solar radiation compared to other models. Is has been also showed that increase of various meteorological variable inputs improve the model results. Results with higher error were observed before the data were normalized. Normalized data was run on all models. For this, the preprocessing function of the sklearn library is used. 
 
 
