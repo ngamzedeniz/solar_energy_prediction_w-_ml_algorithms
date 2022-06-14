@@ -12,7 +12,7 @@ Forecasting solar energy is an interdisciplinary subject in terms of renewable e
 Short and long term solar energy forecasting has an important place in the energy market. 
 
 
-### Expore & Process DATA
+### Explore & Process DATA
 
 1. Retrieve
 
